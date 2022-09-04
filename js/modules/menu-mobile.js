@@ -5,7 +5,7 @@ export default class MenuMobile {
     this.menuButton = document.querySelector(menuButton);
     this.menuList = document.querySelector(menuList);
     this.activeClass = 'active';
-    this.openMenu = this.openMenu.bind(this)
+    this.openMenu = this.openMenu.bind(this);
     // Define touchstart e clique argumento padão de events caso o usuario não defina.
     if (events === undefined) this.events = ['touchstart', 'click'];
     else this.events = events;
